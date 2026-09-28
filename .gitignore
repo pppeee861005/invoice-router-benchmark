@@ -1,0 +1,19 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Benchmark outputs containing API responses, confidence, or usage details
+python_rule_results.csv
+jev_native_results.json
+
+# Local logs and temporary files
+*.log
+*.tmp
